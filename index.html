@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="resources/image/live-tube-favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" href="vendors/css/grid.css">
+    <link rel="stylesheet" href="vendors/css/normalize.css">
+    <link rel="stylesheet" href="resources/css/style.css">
+    <title>Live-Tube | Dashboard</title>
+</head>
+
+<body>
+    <main>
+        <section class="site-wrapper">
+            <div class="clearfix">
+                <div class="main-section">
+                    <div class="side-bar">
+                        <div class="logo"> <a href="#" class="navbar-profile-title">S</a></div>
+                        <div class="sidebar-menu">
+                            <ul class="nave-menu">
+                                <li><a href="#"><i class="fas fa-home"></i></a><span class="tooltip-span">Home</span>
+                                </li>
+                                <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i></a><span
+                                        class="tooltip-span">Back</span>
+                                </li>
+                                <li><a href="#" class="active"><i class="fas fa-download"></i></a><span
+                                        class="tooltip-span">Inbox</span></li>
+                                <li><a href="#"><i class="fas fa-file-download"></i></a><span
+                                        class="tooltip-span">Download</span></li>
+                                <li><a href="#"><i class="fas fa-archive"></i></a><span
+                                        class="tooltip-span">archive</span>
+                                </li>
+                            </ul>
+                            <ul class="nave-menu">
+                                <li><a href="#"><i class="fas fa-home"></i></a><span class="tooltip-span">Home</span>
+                                </li>
+                                <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i></a><span
+                                        class="tooltip-span">Back</span>
+                                </li>
+                                <li><a href="#"><i class="fas fa-download"></i></a><span
+                                        class="tooltip-span">Inbox</span></li>
+                                <li><a href="#"><i class="fas fa-file-download"></i></a><span
+                                        class="tooltip-span">Download</span></li>
+                            </ul>
+                            <ul class="nave-menu">
+                                <li><a href="#" class="active-1"><i class="fas fa-file-download"></i></a><span
+                                        class="tooltip-span">Download</span></li>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main-content-section">
+            <div class="radial-image"></div>
+            <div class="dashboard-body">
+                <div class="Searchbar-profile-menu">
+                    <div class="row">
+                        <div class="col span-4-of-6">
+                            <div class="search-bar">
+                                <input type="search" placeholder="Search">
+                            </div>
+                        </div>
+                        <div class="col span-1-of-3">
+                            <div class="main-profile">
+                                <div class="main-profile-image"><img src="resources/image/profile-picture-1.jpg" alt="">
+                                </div>
+                                <div class="profile-menu">
+                                    <select name="" id="" class="profile-option">
+                                        <option value="Profile">Thomas</option>
+                                        <option value="Settings">Settings</option>
+                                        <option value="Privacy">Privacy</option>
+                                        <option value="Help">Help</option>
+                                        <option value="Logout">Logout</option>
+                                    </select>
+                                    <i class="fas fa-bell bell"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-&-chat clearfix">
+                    <div class="row">
+                        <div class="col span-4-of-6">
+                            <div class="video-box">
+                                <figure>
+                                    <video src="resources/videos/Photographer in Mountains.mp4" id="video"></video>
+                                    <figcaption class="video-controls">
+                                        <span class="live">Live</span>
+                                        <button id="play" aria-label="Play" role="button" class="button paly-pause"><i
+                                                id="pause-icon" class="fas fa-pause pause-btn"></i><i id="play-icon"
+                                                class="fas fa-play"></i></button>
+                                        <progress max="100" value="0" id="progress"></progress>
+                                        <label id="timer" for="progress" role="timer">0</label>
+                                        <span class="time-counter"> / 16</span>
+                                        <button id="sound" class="button sound-control"><i
+                                                class="fas fa-volume-up"></i></button>
+                                        <button id="setting" class="button setting-control"><i
+                                                class="fas fa-sliders-h"></i></button>
+                                        <button id="full-screen" class="button full-screen-control"><i
+                                                class="fas fa-compress"></i></button>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="col span-1-of-3">
+                            <div class="live-chat-box">
+                                <div class="chat-box">
+                                    <div class="chat-box-heading">
+                                        <h2 class="heading-secondary">Live Chat</h2>
+                                        <p class="primary-paragraph"><i class="fas  fa-user-friends friends"></i> 15,986
+                                            People</p>
+                                    </div>
+                                </div>
+                                <div id="massage-box" class="chat-list">
+                                    <div class="chat-member clearfix">
+                                        <div class="chat-member-profile-image"><img
+                                                src="resources/image/profile-picture-7.jpg" alt=""></div>
+                                        <div class="member-message">
+                                            <h2 class="heading-secondary profile-name chat-member-active">Washim barg
+                                            </h2>
+                                            <p id="massage" class="primary-paragraph word-wrap">Lorem ipsum dolor sit
+                                                amet consectetur adipisicing elit.</p>
+                                        </div>
+                                    </div>
+                                    <div class="chat-member clearfix">
+                                        <div class="chat-member-profile-image"><img
+                                                src="resources/image/profile-picture-4.jpg" alt=""></div>
+                                        <div class="member-message">
+                                            <h2 class="heading-secondary profile-name chat-member-deactivated">illora
+                                                powell
+                                            </h2>
+                                            <p id="massage" class="primary-paragraph word-wrap">Lorem ipsum dolor sit
+                                                amet consectetur adipisicing elit.</p>
+                                        </div>
+                                    </div>
+                                    <div class="chat-member clearfix">
+                                        <div class="chat-member-profile-image"><img
+                                                src="resources/image/profile-picture-3.jpg" alt=""></div>
+                                        <div class="member-message">
+                                            <h2 class="heading-secondary profile-name chat-member-deactivated">Dytto Henson
+                                            </h2>
+                                            <p id="massage" class="primary-paragraph word-wrap">Lorem ipsum dolor sit
+                                                amet consectetur adipisicing elit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="message-input-box">
+                                    <input type="text" placeholder="Write your massage" id="massage-input"
+                                        class="input-text">
+                                    <button id="btn" class="button btn-send"><i class="fas fa-paper-plane"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-details">
+                    <div class="row">
+                        <div class="col span-5-of-12">
+                            <div class="profile-info">
+                                <div class="profile-info-image"><img src="resources/image/profile-picture-1.jpg" alt="">
+                                </div>
+                                <div class="member-message">
+                                    <h5 class="heading-primary profile-info-heading">Wijaya abadi</h5>
+                                    <p class="profile-info-message">18,994,049 Subscriber</p>
+                                </div>
+                            </div>
+                            <div class="about-people">
+                                <h1 class="heading-primary box-heading">Basic how to ride your skateboard comfortly and
+                                    basic equipment
+                                    to play skateboard safely</h1>
+                                <p class="primary-paragraph video-desc">Lorem ipsum dolor sit amet consectetur,
+                                    adipisicing. Eligendi accusantium corrupti id doloremque exercitationem illum nemo!
+                                    Quae ut non minima earum saepe, corporis laboriosam, exercitationem, nemo
+                                    consequatur distinctio nulla expedita.</p><br>
+                                <p class="primary-paragraph video-desc">Lorem ipsum dolor sit amet consectetur,
+                                    adipisicing. Eligendi accusantium corrupti id doloremque exercitationem illum nemo!
+                                    Quae ut non minima earum saepe, corporis laboriosam, exercitationem, nemo
+                                    consequatur distinctio nulla expedita.</p>
+                            </div>
+                        </div>
+                        <div class="col span-3-of-11">
+                            <div class="react-button clearfix">
+                                <a href="#" class="btn btn-grey"><i class="fas fa-heart heart"></i>Share</a>
+                                <a href="#" class="btn btn-react"><i class="fas fa-heart heart"></i>Liked</a>
+                            </div>
+                            <ul class="video-info">
+                                <li><i class="far fa-eye info"></i>125.908 views</li>
+                                <li><i class="fas fa-heart info"></i>47,987 likes</li>
+                                <li><i class="fas fa-stream info"></i>1,938,394 streaming</li>
+                                <li><i class="fas fa-bell info"></i>start 2 hours ago</li>
+                            </ul>
+                        </div>
+                        <div class="col span-3-of-11">
+                            <div class="related-video">
+                                <h1 class="heading-primary related-video-heading">Related Videos</h1>
+                                <div class="video-description">
+                                    <div class="related-video-image">
+                                        <img src="resources/image/related-videos-1.jpg" alt="">
+                                    </div>
+                                    <div class="title-description">
+                                        <h3 class="heading-third video-title">Prepare for your first skateboard jump
+                                        </h3>
+                                        <p class="primary-paragraph video-description">Jordan Wise</p>
+                                        <p class="primary-paragraph video-description">125,908 views . 2 days ago</p>
+                                    </div>
+                                </div>
+                                <div class="video-description">
+                                    <div class="related-video-image">
+                                        <img src="resources/image/related-videos-1.jpg" alt="">
+                                    </div>
+                                    <div class="title-description">
+                                        <h3 class="heading-third video-title">Prepare for your first skateboard jump
+                                        </h3>
+                                        <p class="primary-paragraph video-description">Jordan Wise</p>
+                                        <p class="primary-paragraph video-description">125,908 views . 2 days ago</p>
+                                    </div>
+                                </div>
+
+                                <a href="#" class="btn btn-full">See all related videos (32)</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+    </main>
+    <script src="resources/js/main.js"></script>
+</body>
+
+</html>
